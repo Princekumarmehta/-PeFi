@@ -1,0 +1,394 @@
+/* onopen website */
+html{
+    scroll-behavior: smooth;
+}
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+header {
+    animation: slideInLeft 1s ease-out 0s 1 ;
+    background: #666;
+    padding: 40px;
+}
+
+body {
+    color: rgb(252, 252, 252);
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    animation: s duration timing-function delay iteration-count direction fill-mode;
+}
+body{
+   color: hsl(227, 13%, 73%);
+    background-color: hsl(228, 9%, 10%);
+    /* font-size:3.5rem ; */
+
+}
+
+.h1,.h2,.h3 {
+    color:hsl(0, 0%, 100%);
+    line-height: 1.1;
+}
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.pe{
+color:#4AE3B5;
+font-family: 'DM Sans', sans-serif;
+font-weight: bold;
+}
+
+.fi{
+color:#fcfcfc;
+font-family: 'DM Sans', sans-serif;
+font-weight: bold;
+}
+  
+  /* Navbar */
+ .navbar-link:is(:hover, :focus, .active) {
+     color: hsl(222, 100%, 61%);
+ }
+  .navbar {
+   color: aliceblue;
+   transition: 0.25s ease-in;
+   overflow: hidden;
+  
+
+      /* padding: 0 0 4.5rem; */
+     
+  }
+ @media (max-width: 992px){
+  .navbar {
+      /* font-family: "Ubuntu"; */
+      font-size:55px;
+      font-weight: bold;
+      position: relative;
+      /*top:-30px ;*/
+      
+  }
+  
+  .navbar-brand{
+    font-size: 4.5rem;;
+  }
+  }
+  .nav-item {
+    text-align: center;
+      padding: 0 18px;
+    color:aliceblue;
+  }
+#navbar-img{
+    max-height:2% ;
+    max-width:4% ;
+}
+@media (max-width: 992px) {
+#navbar-img {
+        max-height: 6%;
+        max-width: 8%;
+    }
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+color: aliceblue;
+}
+
+.nav-item:hover{
+   font-weight: bolder;
+   background-color: #4AE3B5;
+   border-radius: 3px;
+    
+}
+
+.navbar .navbar-toggler-icon{
+    background-image:url("data: image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' %3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e")
+}
+.navbar-item:is(:hover, :focus, .active) {
+    color: hsl(241, 100%, 61%);
+}
+
+
+/* hero */
+.hero {
+    padding-block: 150px 140px;
+}
+
+.hero-content {
+    margin-block-end: 80px;
+}
+.hero-title{
+    font-size: 4vw;
+    font-weight: bold;
+    
+}
+.hero-text {
+    font-size:2vw;
+    margin-block: 25px 40px;
+}
+.hero_img{
+    width: 90%;
+    /* float: inline-ends; */
+    display: block;
+}
+
+@media (min-width: 992px){ .hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+}
+/* <table */
+.coin-name {
+    text-decoration: none;
+    font-size: 55%;
+    display: inline;
+    color: aliceblue;
+
+}
+
+.img {
+    display: block;
+    height: auto;
+}
+.red{
+    color: rgb(235, 62, 62);
+}
+.green {
+
+    color: rgb(60, 236, 60);
+}
+table{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    
+    
+}
+th{
+    color: aliceblue;
+}
+td{
+    color: aliceblue;
+}
+.table-data{
+    color: aliceblue;
+}
+tbody tr:hover{
+    background-color: rgba(63, 110, 229, 0.781);
+}
+
+section:not(.top){
+    
+    margin-bottom:15%
+}
+.about-content{
+    padding-left: 5%;
+    padding-right: 7%;
+
+}
+
+.title-wrapper{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+/* APP */
+.app {
+    overflow: hidden;
+    padding-block-end: 0;
+    
+}
+
+.app-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.app-banner {
+    position: relative;
+    margin-block-start: 60px;
+}
+span {
+    color: #4AE3B5;
+    white-space: nowrap;
+
+}
+.app-banner .span {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    color: var(#fff);
+    font-size:1.8rem;
+    font-weight: 700;
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+app_banner{
+    position: relative;
+    top: 0;
+}
+app_inn{
+
+    height: 400px;
+}
+
+/* Footer */
+.footer{
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: hsl(240, 5%, 8%); ;
+}
+.footer-top {
+    background-color:hsl(240, 5%, 8%); ;
+    padding-block: 80px 50px;
+}
+
+.footer-top .container {
+    
+    gap: 50px;
+}
+
+.footer .logo {
+    font-size: 3rem;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 2.4rem;
+    margin-block: 25px 20px;
+}
+
+.footer-contact-link:not(:last-child) {
+    margin-block-end: 12px;
+}
+
+address.footer-contact-link {
+    max-width: 30ch;
+}
+
+.footer-list-title {
+    color:#fff;
+    font-size:1.4rem;
+    font-weight:700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-list>li:not(:last-child) {
+    margin-block-end: 10px;
+}
+
+.footer-list>li:first-child {
+    margin-block-end: 20px;
+}
+
+.footer-link {
+    color: hsl(0, 0%, 85%);;
+    transition: 0.25s ease;
+}
+
+.footer-link:is(:hover, :focus) {
+    color: hsla(222, 90%, 52%, 0.747);;
+}
+
+.footer-bottom {
+    background-color : hsl(240, 5%, 8%);;;
+    padding-block: 20px;
+    
+}
+
+.copyright {
+    text-align: center;
+    margin-block-end: 20px;
+    background-color: hsl(240, 5%, 8%);;
+    height: 75px;
+}
+
+.copyright-link {
+    
+    color: hsla(222, 100%, 61%, 0.05);;
+}
+
+.social-list {
+    display: flex;
+    
+   
+}
+
+.social-link {
+    font-size: 18px;
+    transition: 0.25s ease;
+}
+
+.social-link:is(:hover, :focus) {
+    color:hsla(222, 100%, 61%, 0.05);;
+}
+.copyright-link{
+    color: #4AE3B5;
+    font: 1em sans-serif;
+}
+ 
+/* ANIMATION-BUTTON */
+#login-button {
+    background: linear-gradient(135deg, #6ecb4b, #00d841, #d2e9f2, #23d5ab,#00d841,rgb(245, 244, 244),rgb(45, 210, 62),#4AE3B5 );
+        background-size: 400% 400%;
+        animation: gradient 3s ease infinite;
+        margin-right:4px ;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#login-button:hover {
+    background-color: #89d8d3;
+    background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+
+#login-button span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
