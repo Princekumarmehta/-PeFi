@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Habibi&family=Maitree&family=Montserrat&family=Roboto+Slab&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.login {
+    color: #03c8a8;
+    background-color: rgb(19, 20, 20);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.bag {
+    background: rgb(20, 19, 19);
+    border-radius: 30px;
+    box-shadow: 4px 3px 24px;
+    box-shadow: inset;
+
+}
+
+.login video {
+
+    border-radius: 30px;
+}
+
+.outer {
+    height: 100%;
+}
+
+.vid {
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.animate__animated {
+    color: #EEEEEE;
+}
+
+.usertext,
+.pastext {
+    color: #72b4f2
+}
+
+.tnc {
+    color: antiquewhite;
+}
+
+#terms,
+#condition {
+    color: greenyellow;
+}
+
+.login-button {
+    background: linear-gradient(135deg, #6ecb4b, #00d841, #d2e9f2, #23d5ab, #00d841, rgb(245, 244, 244), rgb(45, 210, 62), #4AE3B5);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+    margin-right: 4px;
+    width: 21%;
+
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.login-button:hover {
+    background-color: #89d8d3;
+    background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+
+.login-button span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.or {
+    color: rgba(29, 84, 202, 0.902);
+}
+
+.forget {
+    margin-left: 10%;
+    font-size: smaller;
+    font-weight: lighter;
+    color: red;
+}
+
+.fb {
+    color: rgb(51, 51, 203);
+}
+
+.google {
+    color: #00d841;
+}
+
+
+.or {
+    color: cyan;
+    display: flex;
+
+    width: 80%;
+    flex-direction: row;
+}
+
+.or:before,
+.or:after {
+    content: "";
+    flex: 2 1;
+    border-bottom: 3px solid #00d841;
+
+    margin: auto;
+
+}
+.BacktoHome{
+    
+    background-color: #00d841 ;
+    background-size: 100% 150%;
+       border-radius: 12%;
+        margin-right: 4px;
+        width: 21%;
+        back
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .login {
+
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+}

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AEOS Javascript -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    <title>PeFi-Personal Finance Management</title>
+    <!-- icon -->
+    <link rel="icon" href="images/Fi.svg">
+    <!-- link-Css Javascript-->
+    <link rel="stylesheet" href="pefi.css">
+     <script src="pefi.js"></script>
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/d522b5623f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="preLoader" ></div>
+
+
+    <section id="title" class=" top sticky-top" >
+        <div class="container-fluid"></div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark  ">
+            <img id="navbar-img" class="navbar-brand" src="images/Fi.svg" alt="pe-fi.logo">
+            <a class="navbar-brand" href="#"> <span class="pe">Pe</span> <span id="fi">Fi</span></a>
+            <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="  collapse navbar-collapse " id="navbarSupportedContent">
+
+                <ul class="navbar-nav  nav-pills nav-fill ms-1">
+                    <li class="nav-item active ">
+                        <a href="C:\Web Development\PEFI\PEFI\PEFI\homepage\index.html" class="nav-link ">Home Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="C:\Web Development\PEFI\PEFI\PEFI\crypto\crypto.html" class="nav-link">Crypto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="C:\Web Development\PEFI\PEFI\PEFI\stock\stock.html" class="nav-link">Stock</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="C:\Web Development\PEFI\PEFI\PEFI\mf\mf.html" class="nav-link">Mutual fund</a></li>
+                    <li class="nav-item">
+                        <a href="C:\Web Development\PEFI\PEFI\PEFI\credit\credit.html" class="nav-link">Credit</a></li>
+
+
+
+
+                </ul>
+<a  id="login-button" target="_blank"  class="  btn btn-outline-dark ms-auto" href="C:/Web Development/PEFI/PEFI/PEFI/Login/login.html"><button data-bs-target="blank" type="button"  class="  btn btn-outline-dark ms-auto">LOGIN</button></a>
+                
+            </div>
+        </nav>
+
+
+        </nav>
+    </section>
+    <!-- Her0 -->
+    <section class="section hero" aria-label="hero" data-section>
+        <div class="container  " data-aos="slide-up">
+
+            <div class="hero-content">
+                <p class="hero-text move">
+                    Managing Finance was never Easy.
+                </p>
+
+                <h2 class="h1 hero-title">We made it Easy with PeFi.</h2>
+                <br>
+
+
+
+                <a href="#" class="btn btn-primary  explore  ">Get started now</a>
+
+            </div>
+
+            <figure class="hero-banner">
+                <img src="images/index_pic.svg" width="610" height="500" alt="hero banner" class="hero_img">
+            </figure>
+
+        </div>
+    </section>
+
+
+            <!-- <div id="set-height"></div>
+            <p id="time"></p>
+            <video id="v0" tabindex="0" autobuffer="autobuffer" preload="preload">
+            <source type="video/mp4; codecs=&q;avc1.42E01E, mp4a.40.2&quot;" src="images/mainpage_video.mp4"></source>
+            </video> -->
+
+
+
+
+
+             <!-- About -->
+             <section id="About" >
+               <div class="row"  data-aos="slide-up">
+                <div class="col-lg-6" >
+                    <img src="images/lap.png" alt=""width="748" height="436" loading="lazy" alt="about banner"
+              class="w-100">
+                </div>
+                <div class="about-content col-lg-6 ">
+
+                    <h2 class="h2 section-title center " style="font-size:8vb ;" >
+                        <center>What Is PeFi</center></span></h2>
+
+                    <p class="section-text">
+                        One Stop platform where you see your personal portfolio of your current holdings as well as buy and trade.
+                        Access your Stocks, Mutual Funds, Crytpocurrency Wallet and check your current Bank balance and Credit Score.
+                    </p>
+                    <ul class="section-list">
+
+                        <li class="section-item">
+                            <div class="title-wrapper">
+                                <FontAwesomeIcon icon="fa-regular fa-shield-check" />
+
+                                <h3 class="h3 list-title">View real-time Prices of Stocks and Crypto Along wth your Bank Account</h3>
+                            </div>
+
+                            <p class="item-text">
+                                Experience the live trading here at one platform.Link your personal Bank Account and see the transactions,
+                                credit score,etc.
+                            </p>
+                        </li>
+
+                        <li class="section-item">
+                            <div class="title-wrapper">
+                               <FontAwesomeIcon icon="fa-regular fa-shield-check" />
+
+                                <h3 class="h3 list-title">Buy and Sell Stocks, Crypto and Mutual Funds.</h3>
+                            </div>
+
+                            <p class="item-text">
+                                Buy and Sell Stocks, Crypto and Mutual Funds from a wide variety of options.
+                            </p>
+                        </li>
+
+                    </ul>
+
+                    <a href="#" class="btn  explore  btn-primary">Explore More</a>
+
+               </div>
+             </section>
+             <!-- <APP -->
+                <section class=" section app" >
+                    <div class="container"  data-aos="slide-up">
+                        <div class="row" >
+                 <div class="col-lg-6 app_inn" >
+                    <h2 class="h2 section-title  " style="font-size:8vb ;" >We manage your Finances for Free.<br>
+
+                    </h2>
+
+                    <p class="">
+                        Free Your Money & Invest With Confidence.
+
+                    </p>
+
+                    <ul class="">
+
+                        <li class="">
+                            <div class="">
+                                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                                <h3 class="h3 item-title">No Hustle.No Bustle.</h3>
+                            </div>
+
+                            <p class="item-text">Buy, Sell, And Trade On The Go.
+
+                            </p>
+                        </li>
+
+                        <li class="">
+                            <div class="">
+                                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                                <h3 class="h3 item-title">Take Control Of Your Wealth <br>
+                                    View Realtimme Prices.</h3>
+                            </div>
+
+                            <p class="item-text">
+                                Rest Assured You (And Only You) Have Access To Your Funds
+                            </p>
+                        </li>
+
+                    </ul>
+                    <a href="#">
+                        <img src="images/googleplay.png" width="135" height="40" loading="lazy" alt="get it on google play">
+                    </a>
+
+                    <a href="#">
+                        <img src="images/appstore.png" width="120" height="40" loading="lazy" alt="download on the app store">
+                    </a>
+                 </div>
+                 <div class="col-lg-6 app_banner" >
+                    <div class="app-banner">
+                        <img src="images/mob.png"  alt="app banner" class="w-100">
+
+
+                    </div>
+                    </div>
+
+
+
+
+
+                 </div>
+                        </div>
+
+                </section>
+                <!-- Press -->
+                <section id="press">
+                  <div class="" data-aos="slide-up">
+<center>
+<h2 id="partner" >Our Premium Partners</h2>
+
+</center>
+<a href="https://bitcoin.org/en/"> <img class="press_image"   src="images/coin-1.svg" alt="tc-logo"></a>
+
+<a href="#"> <img class="press_image"  src="images/UPI.svg" alt="UPI "> </a>
+<a href="#"> <img class="press_image"  src="images/DBS.svg" alt="VISA"> </a>
+<a href="https://ethereum.org/en/"><img class="press_image" src="images/coin-2.svg" alt="tnw-logo"></a>
+<a href="#"> <img class="press_image"  src="images\BANKAOFAMERICA.svg" alt="BOA"> </a>
+ </div></a>
+
+
+
+</section>
+                <!--
+                    - #FOOTER
+                  -->
+
+                <footer class="footer">
+
+                    <div class="footer-top" data-section>
+                        <div class="row" data-aos="slide-right">
+                <div class="col-lg-4">
+                            <div class="footer-brand ">
+
+                                <a href="#" class="logo">
+                                    <img src="images/Fi.svg" width="50" height="50" alt="PeFi logo">
+                                    <span>Pe</span>Fi
+                                </a>
+
+                                <h2 class="footer-title">Let's talk! 🗣️</h2>
+
+                                <a href="tel:+123456789101" class="footer-contact-link">+91 83747xxxxx</a>
+
+                                <a href="mailto:hello.pe-fi@gmail.com" class="footer-contact-link">hello.pefi@gmail.com</a>
+
+                                <address class="footer-contact-link">
+                                    #393,Rutance Towers,Bengaluru-XX
+                                </address>
+                </div>
+                            </div>
+
+                            <ul class="footer-list col-lg-2">
+
+                                <li>
+                                    <p class="footer-list-title">Products</p>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Stocks</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Cryptocurrency</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Mutual Funds</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Credit Score</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Banking</a>
+                                </li>
+
+
+
+                            </ul>
+
+                            <ul class="footer-list col-lg-2">
+
+                                <li>
+                                    <p class="footer-list-title">Services</p>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Buy Crypto</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Buy Stocks</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Buy Mutual Funds</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Portfolio Management</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Financial Consultation</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Banking Services and Credit Offers</a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="footer-list col-lg-2">
+
+                                <li>
+                                    <p class="footer-list-title">Support</p>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Learn</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">Help Center</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">User Feedback</a>
+                                </li>
+
+
+
+                            </ul>
+
+                            <ul class="footer-list col-lg-2">
+
+                                <li>
+                                    <p class="footer-list-title">About Us</p>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="footer-link">About PeFi</a>
+                                </li>
+
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="container">
+
+                            <p class="copyright">
+                                &copy; 2023 PeFi All Rights Reserved by <a href="#" class="copyright-link">Prince Kumar and
+                                    Rutajit Sarkar 😊 </a>
+                            </p>
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                            <ul class="social-list">
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </section>
+
+                        </div>
+                    </div>
+
+                </footer>
+                <!--
+                    - ionicon link
+                  -->
+                <!-- Aeos script -->
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                    AOS.init({
+                        // offset: 300,
+                        duration: 1000,
+                    });
+                </script>
+
+                <script src="pefi.js"></script>
+                <script>
+
+                    var loader = document.getElementById("preLoader");
+                       window.addEventListener("load", function () {
+                            loader.style.display = "none";
+
+
+                        });
+                </script>
+                      </body>
+                </html>

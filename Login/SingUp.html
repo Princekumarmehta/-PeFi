@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeFi-Personal Finance Management</title>
+
+    <link rel="stylesheet" href="signup.css">
+
+    <!-- icon -->
+    <link rel="icon" href="images/Fi.svg">
+
+    <!-- <---BOOTSTRAP------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- AEOS Javascript -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- animate.css for text -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/d522b5623f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <section class="login py-5 ">
+        <button type="button" class="BacktoHome btn ">🔙Home</button>
+        <div class="container w-100 p-3 outer">
+            <div class="row bag">
+                <div class="col-lg-5 vid">
+                    <video class="img-fluid" autoplay muted loop id="myVideo" src="media/mainpage_video.mp4"
+                        type="video/mp4"></video>
+
+
+                </div>
+                <div class="col-lg-7 text-center py-5 ">
+                    <h1 class="animate__animated animate__backInRight">SignUp to Pe-Fi</h1><br>
+                    <center>
+                        <form name="logform" action="" onsubmit="validate()">
+                            <table>
+                                <tr>
+                                    <td><label class="usertext" for="">Enter Your  Name</label> </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" name="username"  placeholder="  Name Here" id="user_name"></td>
+                                </tr>
+                                <tr>
+                                    <td><label class="usertext" for="">Enter Your email</label> </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="email" placeholder="📨 Email Adress Here " name="username" id="user_name"></td>
+
+                                </tr>
+                                
+                                <tr>
+                                    <td><label for="Dob">Enter Your Date of Birth</label></td>
+                                    
+                                </tr>
+                                <tr><td><input placeholder="00/00/0000" type="datetime-local" name="" id=""></td></tr>
+                                <tr>
+                                    <td><label class="pastext" for="">Enter Your Password</label></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="password" placeholder="🔑 Password here" name="username"  id="pass_word"></td>
+                                </tr>
+                                <tr>
+                                    <td><label class="pastext" for="">Confirm Your Password</label></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><input type="password" placeholder="Retype your password" name="username" id="cpass_word"></td>
+                                </tr>
+                            </table>
+
+                            
+
+                            <br>
+                            <tr>
+                                <td><input type="checkbox" required name="agree" placeholder="✅" id="check"><label  class="tnc"
+                                        for="checkbox" required>Agree to <span id="terms">terms </span>and <span
+                                            id="condition">Condition</span></label></td>
+                            </tr><br>
+                            <tr id="submit"><button type="submit" class="login-button">Sign-Up</button></tr>
+                        </form>
+                        <br>
+                        <h5 class="or_signup">Or Sign-Up with</h5><br>
+                        <i class="fa-brands fa-2x icon fb fa-facebook mx-4"></i>
+                        <span></span>
+                        <i class="fa-brands google icon fa-2x fa-google"></i>
+                            <br>
+                        <h4 class="or">OR</h4>
+                        </center>
+                        <a href="login.html"><button class="login-button">SIGN IN</button></a>
+                        
+                    </center>
+                         
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="signup.js"></script>
+</body>
+
+</html>
