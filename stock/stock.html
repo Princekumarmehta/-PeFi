@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AEOS Javascript -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    <title>PeFi-Personal Finance Management</title>
+    <!-- icon -->
+    <link rel="icon" href="images/Fi.svg">
+    <!-- link-Css Javascript-->
+    <link rel="stylesheet" href="C:\Web Development\PEFI\PEFI\PEFI\homepage\pefi.css">
+     <script src="C:\Web Development\PEFI\PEFI\PEFI\homepage\pefi.css"></script>
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/d522b5623f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="preLoader" ></div>
+
+    <section id="title" class=" top sticky-top" >
+        <div class="container-fluid"></div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            <img id="navbar-img" class="navbar-brand" src="images/Fi.svg" alt="pe-fi.logo">
+            <a class="navbar-brand" href="#"> <span class="pe">Pe</span> <span id="fi">Fi</span></a>
+            <button class="navbar-toggler bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="  collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav  nav-pills nav-fill">
+                  <li class="nav-item active">
+                      <a href="C:\Web Development\PEFI\PEFI\PEFI\homepage\index.html" class="nav-link ">Home Page</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="C:\Web Development\PEFI\PEFI\PEFI\crypto\crypto.html" class="nav-link">Crypto</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="C:\Web Development\PEFI\PEFI\PEFI\stock\stock.html" class="nav-link">Stock</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="C:\Web Development\PEFI\PEFI\PEFI\mf\mf.html" class="nav-link">Mutual fund</a></li>
+                  <li class="nav-item">
+                      <a href="C:\Web Development\PEFI\PEFI\PEFI\credit\credit.html" class="nav-link">Credit</a></li>
+
+
+
+
+              </ul>
+            <a id="login-button" 
+             target="_blank" class="  btn btn-outline-dark ms-auto"
+                href="C:/Web Development/PEFI/PEFI/PEFI/Login/login.html"><button data-bs-target="blank" type="button"
+                    class="  btn btn-outline-dark ms-auto">LOGIN</button></a>
+            </div>
+        </nav>
+
+
+        </nav>
+    </section>
+    <!-- Her0 -->
+  
+    <section class="section hero" aria-label="hero" data-section data-aos="slide-up">
+        <div class="container  ">
+
+            <div class="hero-content">
+                <p class="hero-text">
+                    Investing Made
+              Easy And Rewarding!
+                </p>
+
+                <h2 class="h1 hero-title">Invest on Stocks today!</h2>
+                <br>
+
+
+
+                <a href="#" class="explore btn btn-primary ">Get started now</a>
+
+            </div>
+
+            <figure class="hero-banner">
+                <img src="images/stock.svg" width="610" height="500" alt="hero banner" class="hero_img">
+            </figure>
+
+        </div>
+    </section>
+
+    <!--
+            - #MARKET
+          -->
+
+    <section class="market" aria-label="market update" data-section data-aos="slide-up">
+        <div class="">
+
+            <div class="title-wrapper">
+                <h2 class="h2 section-title">Market Update</h2>
+
+
+
+            <div class="market-tab  ">
+                <video width="320" height="240" autoplay muted>
+                    <source src="images/index_pic.svg" type="video/mp4">
+                </video>
+    <div class="table-responsive">
+        <table class="table no-margin">
+            <thead>
+                <tr>
+                    <th style="width:5%" class="table-head">
+                        <input class="no-margin" type="checkbox">
+                    </th>
+                    <th>#</th>
+                    <th class="hidden-phone">Name</th>
+                    <th class="hidden-phone">Market Price</th>
+                    <th class="hidden-phone">24th %</th>
+                    <th class="hidden-phone">Market Cap</th>
+                    <th class="hidden-phone">  </th>
+                    <thclass="hidden-phone"></th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider" class="table-body">
+                <tr>
+                    <td>
+                        <button class="fav-check">
+                            <FontAwesomeIcon icon="fa-light fa-star" />
+                        </button>
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td class="table-data">
+                        <div class="">
+                            <img src="images/reliance.jpg" width="20" height="20" alt="rel logo" class="img">
+
+                            <h3>
+                                <a href="#" class="coin-name">Reliance Industries </a>
+                            </h3>
+                        </div>
+                    </td>
+                    <td class="table-data last-price">₹23,290.00</td>
+                    <td class="table-data last-update green" style="color:  rgb(60, 236, 60);">+1.45%</td>
+                    <td class="table-data market-cap">₹15,43,234.98</td>
+                    <td class="table-data">
+                        <img src="images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
+                    </td>
+                    <td class="table-data">
+                        <button class="btn btn-outline btn-dark">Trade</button>
+                    </td>
+
+                </tr>
+                <tr class="table-row">
+
+                    <td>
+                        <button class="fav-check">
+                            <FontAwesomeIcon icon="fa-light fa-star" />
+                        </button>
+                    </td>
+                    <td>
+                        <span class="name">2</span>
+                    </td>
+                    <td class="table-data">
+                        <div class="wrapper">
+                            <img src="images/hcl.jpg" width="20" height="20" alt="Ethereum logo" class="img">
+
+                            <h3>
+                                <a href="#" class="coin-name">HCL Technologies </a>
+                            </h3>
+                        </div>
+                    </td>
+                    <td class="table-data last-price">₹1,345.98</td>
+                    <td style="color:  rgb(224, 77, 77)"  class="table-data last-update red">-5.12%</td>
+                    <td class="table-data market-cap">₹23,43,234.98</td>
+                    <td class="table-data">
+                        <img src="images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
+                    </td>
+
+                    <td class="table-data">
+                        <button class="btn btn-outline btn-dark">Trade</button>
+                    </td>
+
+                </tr>
+                <tr class="table-row">
+
+                    <td>
+                        <button class="fav-check">
+                            <FontAwesomeIcon icon="fa-light fa-star" />
+                        </button>
+                    </td>
+                    <td>
+                        <span class="name">3</span>
+                    </td>
+                    <td class="table-data">
+                        <div class="wrapper">
+                            <img src="images/tcs.jpg    " width="20" height="20" alt="TCS" class="img">
+
+                            <h3>
+                                <a href="#" class="coin-name">TCS</a>
+                            </h3>
+                        </div>
+                    </td>
+                    <td class="table-data last-price">₹23,290.00</td>
+                    <td style="color:  rgb(60, 236, 60);" class="table-data last-update green">+1.45%</td>
+                    <td class="table-data market-cap">₹15,43,234.98</td>
+                    <td class="table-data">
+                        <img src="images/chart-1.svg" width="100" height="40" alt="loss chart" class="chart">
+                    </td>
+
+                    <td class="table-data">
+                        <button class="btn btn-outline btn-dark">Trade</button>
+                    </td>
+
+                </tr>
+                <tr class="table-row">
+
+                    <td>
+                        <button class="fav-check">
+                            <FontAwesomeIcon icon="fa-light fa-star" />
+                        </button>
+                    </td>
+                    <td>
+                        <span class="name">4</span>
+                    </td>
+                    <td class="table-data">
+                        <div class="wrapper">
+                            <img src="images/nippon.png" width="20" height="20" alt="BNB logo" img>
+
+                            <h3>
+                                <a href="#" class="coin-name">Nippon </a>
+                            </h3>
+                        </div>
+                    </td>
+                    <td class="table-data last-price">₹1,345.98</td>
+                    <td style="color:  rgb(235, 62, 62);" class="table-data last-update red">-3.75%</td>
+                    <td class="table-data market-cap">₹15,98,345.98</td>
+                    <td class="table-data">
+                        <img src="images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
+                    </td>
+
+                    <td class="table-data">
+                        <button class="btn btn-outline btn-dark">Trade</button>
+                    </td>
+
+                </tr>
+                <tr class="table-row">
+
+                    <td>
+                        <button class="fav-check">
+                            <FontAwesomeIcon icon="fa-light fa-star" />
+                        </button>
+                    </td>
+                    <td>
+                        <span class="name">5</span>
+                    </td>
+                    <td class="table-data">
+                        <div class="wrapper">
+                            <img src="images/reddys.jpg" width="20" height="20" alt="Solana Logo" class="img">
+
+                            <h3>
+                                <a href="#" class="coin-name">Reddy Labs</a>
+                            </h3>
+                        </div>
+                    </td>
+                    <td class="table-data last-price">₹1,645.98</td>
+                    <td style="color:  rgb(60, 236, 60);" class="table-data last-update green">+1.45%</td>
+                    <td class="table-data market-cap">₹13,305.80</td>
+                    <td class="table-data">
+                        <img src="images/chart-1.svg" width="100" height="40" alt="Profit chart" class="chart">
+                    </td>
+
+                    <td class="table-data">
+                        <button class="btn btn-outline btn-dark">Trade</button>
+                    </td>
+
+                </tr>
+                <tr class="table-row">
+
+                    <td>
+                        <button class="fav-check">
+                            <FontAwesomeIcon icon="fa-light fa-star" />
+                        </button>
+                    </td>
+                    <td>
+                        <span class="name">6</span>
+                    </td>
+                    <td class="table-data">
+                        <div class="wrapper">
+                            <img src="images/adaniports.png" width="20" height="20" alt="Tether Logo" class="img">
+
+                            <h3>
+                                <a href="#" class="coin-name">Adani Ports </a>
+                            </h3>
+                        </div>
+                    </td>
+                    <td class="table-data last-price">₹545.98</td>
+                    <td style="color:  rgb(235, 62, 62);" class="table-data last-update red">-2.22%</td>
+                    <td class="table-data market-cap">₹10,34,89.00</td>
+                    <td class="table-data">
+                        <img src="images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
+                    </td>
+
+                    <td class="table-data">
+                        <button class="btn btn-outline btn-dark">Trade</button>
+                    </td>
+
+                </tr>
+                <tr class="table-row">
+
+                    <td>
+                        <button class="fav-check">
+                            <FontAwesomeIcon icon="fa-light fa-star" />
+                        </button>
+                    </td>
+                    <td>
+                        <span class="name">7</span>
+                    </td>
+                    <td class="table-data">
+                        <div class="wrapper">
+                            <img src="images/bajaj.png" width="20" height="20" alt="CArdano Logo" class="img">
+
+                            <h3>
+                                <a href="#" class="coin-name">Bajaj Finance</a>
+                            </h3>
+                        </div>
+                    </td>
+                    <td class="table-data last-price">₹6,623.54</td>
+                    <td style="color:  rgb(60, 236, 60);" class="table-data last-update green">+0.45%</td>
+                    <td class="table-data market-cap">₹1,34,598.42</td>
+                    <td class="table-data">
+                        <img src="images/chart-1.svg" width="100" height="40" alt="loss chart" class="chart">
+                    </td>
+
+                    <td class="table-data">
+                        <button class="btn btn-outline btn-dark">Trade</button>
+                    </td>
+
+                </tr>
+                <tr class="table-row">
+
+                    <td>
+                        <button class="fav-check">
+                            <FontAwesomeIcon icon="fa-light fa-star" />
+                        </button>
+                    </td>
+                    <td>
+                        <span class="name">8</span>
+                    </td>
+                    <td class="table-data">
+                        <div class="wrapper">
+                            <img src="images/ongc.jpg" width="20" height="20" alt="AVAX Logo" class="img">
+
+                            <h3>
+                                <a href="#" class="coin-name">ONGC </a>
+                            </h3>
+                        </div>
+                    </td>
+                    <td class="table-data last-price">₹6,623.54</td>
+                    <td style="color:  rgb(60, 236, 60);" class="table-data last-update green">+1.41%</td>
+                    <td class="table-data market-cap">₹88,00,423.64</td>
+                    <td class="table-data">
+                        <img src="images/chart-1.svg" width="100" height="40" alt="loss chart" class="chart">
+                    </td>
+
+                    <td class="table-data">
+                        <button class="btn btn-outline btn-dark">Trade</button>
+                    </td>
+
+                </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+      </div>
+      </div>
+      </section>
+
+
+                <!--
+                    - #FOOTER
+                  -->
+
+                  <footer class="footer">
+
+                      <div class="footer-top" data-section>
+                          <div class="row" data-aos="slide-up">
+                  <div class="col-lg-4">
+                              <div class="footer-brand ">
+
+                                  <a href="#" class="logo">
+                                      <img src="images/Fi.svg" width="50" height="50" alt="PeFi logo">
+                                      <span>Pe</span>Fi
+                                  </a>
+
+                                  <h2 class="footer-title">Let's talk! 🗣️</h2>
+
+                                  <a href="tel:+123456789101" class="footer-contact-link">+91 83747xxxxx</a>
+
+                                  <a href="mailto:hello.cryptex@gmail.com" class="footer-contact-link">hello.pefi@gmail.com</a>
+
+                                  <address class="footer-contact-link">
+                                      #393,Rutance Towers,Bengaluru-XX
+                                  </address>
+                  </div>
+                              </div>
+
+                              <ul class="footer-list col-lg-2">
+
+                                  <li>
+                                      <p class="footer-list-title">Products</p>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Stocks</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Cryptocurrency</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Mutual Funds</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Credit Score</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Banking</a>
+                                  </li>
+
+
+
+                              </ul>
+
+                              <ul class="footer-list col-lg-2">
+
+                                  <li>
+                                      <p class="footer-list-title">Services</p>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Buy Crypto</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Buy Stocks</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Buy Mutual Funds</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Portfolio Management</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Financial Consultation</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Banking Services and Credit Offers</a>
+                                  </li>
+
+                              </ul>
+
+                              <ul class="footer-list col-lg-2">
+
+                                  <li>
+                                      <p class="footer-list-title">Support</p>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Learn</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">Help Center</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">User Feedback</a>
+                                  </li>
+
+
+
+                              </ul>
+
+                              <ul class="footer-list col-lg-2">
+
+                                  <li>
+                                      <p class="footer-list-title">About Us</p>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="footer-link">About PeFi</a>
+                                  </li>
+
+
+
+                              </ul>
+
+                          </div>
+                      </div>
+
+                      <div class="footer-bottom">
+                          <div class="container">
+
+                              <p class="copyright">
+                                  &copy; 2023 PeFi All Rights Reserved by <a href="#" class="copyright-link">Prince Kumar Mehta and
+                                      Rutajit Sarkar 😊 </a>
+                              </p>
+                  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                              <ul class="social-list">
+
+                                  <li>
+                                      <a href="#" class="social-link">
+                                          <ion-icon name="logo-facebook"></ion-icon>
+                                      </a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="social-link">
+                                          <ion-icon name="logo-twitter"></ion-icon>
+                                      </a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="social-link">
+                                          <ion-icon name="logo-instagram"></ion-icon>
+                                      </a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#" class="social-link">
+                                          <ion-icon name="logo-linkedin"></ion-icon>
+                                      </a>
+                                  </li>
+
+                              </ul>
+                              </section>
+
+                          </div>
+                      </div>
+
+                  </footer>
+<!--
+    - ionicon link
+  -->
+  <!-- Aeos script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init({
+          offset: 300,
+          duration: 1000,
+      });
+  </script>
+
+  <script src="pefi.js"></script>
+  <script>
+
+      var loader = document.getElementById("preLoader");
+         window.addEventListener("load", function () {
+              loader.style.display = "none";
+
+
+          });
+  </script>
+        </body>
+  </html>
